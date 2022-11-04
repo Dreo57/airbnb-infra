@@ -8,6 +8,6 @@ resource "aws_instance" "webinstance" {
   }
 
   tags = {
-    Name = "airbnb-webserver-instance"
+    Name = "airbnb-appserver-instance"
   }
 }
